@@ -7,6 +7,8 @@
   </head>
   
   <body>	
+
+  	<!--6x6 table-->
     <section>
 	  <table>
 	    <caption>Demo Table</caption>
@@ -70,6 +72,7 @@
       </table>
 	</section>
 
+	<!--DL list-->
 	<section>
 	  <dl>
 	    <dt>Pizza</dt>
@@ -79,8 +82,68 @@
 	    <dt>Sandwiches</dt>
 	    <dd>Everything</dd>
 	  </dl>
-
 	</section>
 
+	<!--HTML form demos, post & get-->
+	<section>
+
+	<!--Get Form-->
+	  <fieldset>
+	    <legend>Get Form</legend>
+	    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+	  	  <div>
+	  	    <label>Enter Text:</label>
+	  	    <input type="text" name="text_input">
+	  	  </div>
+	  	  <div>
+	  	    <label>Enter Numbers:</label>
+	  	    <input type="number" name="numerical_input">
+	  	  </div>
+	  	  <div>
+	  	  	<label>Password:</label>
+	  	  	<input type="password" name="password_input">
+	  	  </div>
+	  	  <div>
+	  	  	<label>Which candy is best?</label>
+	  	  	<br>
+	  	  	<input type="radio" name="candy" value="Snickers" checked>Snickers
+            <br>
+            <input type="radio" name="candy" value="Skittles">Skittles
+            <br>
+            <input type="radio" name="candy" value="Mentos">Mentos
+	  	    </div>
+	  	  <input type="submit">
+        </form>
+      </fieldset>
+
+      <!--Post Form-->
+      <fieldset>
+	    <legend>Post Form</legend>
+	    <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+	  	  <div>
+	  	    <label>Enter Text:</label>
+	  	    <input type="text" name="text_input">
+	  	  </div>
+	  	  <div>
+	  	    <label>Enter Numbers:</label>
+	  	    <input type="number" name="numerical_input">
+	  	  </div>
+	  	  <div>
+	  	  	<label>Password:</label>
+	  	  	<input type="password" name="password_input">
+	  	  </div>
+	  	  <div>
+	  	  	<label>Which candy is best?</label>
+	  	  	<br>
+	  	  	<input type="radio" name="candy" value="Snickers" checked>Snickers
+            <br>
+            <input type="radio" name="candy" value="Skittles">Skittles
+            <br>
+            <input type="radio" name="candy" value="Mentos">Mentos
+	  	    </div>
+	  	  <input type="submit">
+        </form>
+      </fieldset>
+	</section>
   </body>
 </html>
