@@ -35,3 +35,9 @@ table tbody tr td:first-of-type{
 table tbody tr td:nth-of-type(3n){
   color: blue;
 }
+
+/*Style for dd list*/
+
+dt:hover + dd{
+  background-color: purple;
+}
