@@ -11,28 +11,27 @@ table {
 
 table th,
 table td {
-	border: 1px solid black;
-	padding: .5em;
+  border: 1px solid black;
+  padding: .5em;
 }
 
 table tbody tr th{
-	font-weight: normal;
-	font-style: italic;
+  font-weight: normal;
+  font-style: italic;
 }
 
 table tbody tr:nth-child(even) td{
-	background-color: #c0d9d9;
-	
+  background-color: #c0d9d9;
 }
 
 table tbody tr:nth-child(odd) td{
-	background-color: #90ee90; 
+  background-color: #90ee90; 
 }
 
 table tbody tr td:first-of-type{
-	color: red;
+  color: red;
 }
 
 table tbody tr td:nth-of-type(3n){
-	color: blue;
+  color: blue;
 }
