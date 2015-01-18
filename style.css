@@ -80,3 +80,9 @@ label{
 	line-height: 50%;
 	padding-top: 10px;
 }
+
+img{
+  width: 100px;
+  height: 125px;
+  float: left; 
+}
