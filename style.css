@@ -45,6 +45,9 @@ dt:hover + dd{
 /*Style for forms*/
 /*Referenced Mozilla's guide for this code:
 https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
+form{
+	width 400px;
+}
 
 form div{
   border: 1px solid black;
